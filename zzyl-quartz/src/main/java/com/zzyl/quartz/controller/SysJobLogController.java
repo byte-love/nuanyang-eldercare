@@ -22,7 +22,7 @@ import com.zzyl.quartz.service.ISysJobLogService;
 /**
  * 调度日志操作处理
  * 
- * @author ruoyi
+ * @author byte-love
  */
 @RestController
 @RequestMapping("/monitor/jobLog")

@@ -3,7 +3,7 @@ package com.zzyl.common.constant;
 /**
  * 返回状态码
  * 
- * @author ruoyi
+ * @author byte-love
  */
 public class HttpStatus
 {

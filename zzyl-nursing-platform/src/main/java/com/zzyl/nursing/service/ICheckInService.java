@@ -9,7 +9,7 @@ import com.zzyl.nursing.vo.CheckInDetailVo;
 /**
  * 入住Service接口
  * 
- * @author ruoyi
+ * @author byte-love
  * @date 2025-08-24
  */
 public interface ICheckInService extends IService<CheckIn>

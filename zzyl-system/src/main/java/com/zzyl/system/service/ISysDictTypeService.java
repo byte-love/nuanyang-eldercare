@@ -7,7 +7,7 @@ import com.zzyl.common.core.domain.entity.SysDictType;
 /**
  * 字典 业务层
  * 
- * @author ruoyi
+ * @author byte-love
  */
 public interface ISysDictTypeService
 {

@@ -14,7 +14,7 @@ import com.zzyl.system.service.ISysRoleService;
 /**
  * 用户权限处理
  * 
- * @author ruoyi
+ * @author byte-love
  */
 @Component
 public class SysPermissionService

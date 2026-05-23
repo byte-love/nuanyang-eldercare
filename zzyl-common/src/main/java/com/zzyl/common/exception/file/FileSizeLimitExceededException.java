@@ -3,7 +3,7 @@ package com.zzyl.common.exception.file;
 /**
  * 文件名大小限制异常类
  * 
- * @author ruoyi
+ * @author byte-love
  */
 public class FileSizeLimitExceededException extends FileException
 {

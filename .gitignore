@@ -35,7 +35,13 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
-node_modules/*
+node_modules/
+zzyl-ui/node_modules/
+zzyl-ui/dist/
+.DS_Store
+Thumbs.db
+*.local
+.env.local
 
 ######################################################################
 # Others

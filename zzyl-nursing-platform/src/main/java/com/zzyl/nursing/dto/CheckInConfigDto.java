@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 /**
- * @author itcast
+ * @author byte-love
  */
 @ApiModel(description = "入住配置信息")
 @Data

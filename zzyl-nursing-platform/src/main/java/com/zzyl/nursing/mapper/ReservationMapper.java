@@ -15,7 +15,7 @@ import java.util.List;
 /**
  * 预约信息Mapper接口
  * 
- * @author ruoyi
+ * @author byte-love
  * @date 2025-07-25
  */
 @Mapper

@@ -24,7 +24,7 @@ import com.zzyl.framework.security.handle.LogoutSuccessHandlerImpl;
 /**
  * spring security配置
  * 
- * @author ruoyi
+ * @author byte-love
  */
 @EnableMethodSecurity(prePostEnabled = true, securedEnabled = true)
 @Configuration

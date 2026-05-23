@@ -7,7 +7,7 @@ import com.zzyl.common.core.domain.BaseEntity;
 /**
  * 老人对象 elder
  * 
- * @author ruoyi
+ * @author byte-love
  * @date 2025-08-24
  */
 @Data

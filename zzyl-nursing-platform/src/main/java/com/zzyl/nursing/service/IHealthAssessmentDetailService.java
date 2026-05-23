@@ -7,7 +7,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
 /**
  * 健康评估详情Service接口
  * 
- * @author ruoyi
+ * @author byte-love
  * @date 2025-08-22
  */
 public interface IHealthAssessmentDetailService extends IService<HealthAssessmentDetail>

@@ -21,7 +21,7 @@ import com.zzyl.system.service.ISysUserService;
 /**
  * 注册校验方法
  * 
- * @author ruoyi
+ * @author byte-love
  */
 @Component
 public class SysRegisterService

@@ -7,7 +7,7 @@ import com.zzyl.common.core.domain.entity.SysDictData;
 /**
  * 字典表 数据层
  * 
- * @author ruoyi
+ * @author byte-love
  */
 public interface SysDictDataMapper
 {

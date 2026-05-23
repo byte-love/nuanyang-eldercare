@@ -17,7 +17,7 @@ import java.util.List;
 /**
  * 床位Controller
  * 
- * @author ruoyi
+ * @author byte-love
  * @date 2024-04-26
  */
 @RestController

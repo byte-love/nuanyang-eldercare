@@ -3,7 +3,7 @@ package com.zzyl.common.enums;
 /**
  * 限流类型
  *
- * @author ruoyi
+ * @author byte-love
  */
 
 public enum LimitType

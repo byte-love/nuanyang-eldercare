@@ -6,7 +6,7 @@ import com.zzyl.system.domain.SysConfig;
 /**
  * 参数配置 数据层
  * 
- * @author ruoyi
+ * @author byte-love
  */
 public interface SysConfigMapper
 {

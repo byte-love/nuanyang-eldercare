@@ -1,7 +1,7 @@
 # 项目相关配置
 ruoyi:
   # 名称
-  name: RuoYi
+  name: 暖阳颐养
   # 版本
   version: 3.8.8
   # 版权年份
@@ -198,6 +198,10 @@ deepseek:
   apiKey: ${DEEPSEEK_API_KEY}
   model: deepseek-chat
 wechat:
-  appid: wxa54e0997e8b6649e
-  secret: 9e4b693aa8cee71a9077e15dcac30b52
+  appid: ${WECHAT_APPID:your-wechat-appid}
+  secret: ${WECHAT_SECRET:your-wechat-secret}
+
+dify:
+  baseUrl: ${DIFY_BASE_URL:http://localhost}
+  apiKey: ${DIFY_API_KEY:}
 nursingId: 201

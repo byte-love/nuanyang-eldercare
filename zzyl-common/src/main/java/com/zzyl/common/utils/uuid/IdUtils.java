@@ -3,7 +3,7 @@ package com.zzyl.common.utils.uuid;
 /**
  * ID生成器工具类
  * 
- * @author ruoyi
+ * @author byte-love
  */
 public class IdUtils
 {

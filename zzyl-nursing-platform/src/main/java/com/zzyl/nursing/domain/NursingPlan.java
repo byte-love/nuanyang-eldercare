@@ -9,7 +9,7 @@ import com.zzyl.common.core.domain.BaseEntity;
 /**
  * 护理计划对象 nursing_plan
  * 
- * @author ruoyi
+ * @author byte-love
  * @date 2024-09-07
  */
 @Data

@@ -8,7 +8,7 @@ import org.apache.ibatis.annotations.Mapper;
 /**
  * 老人家属Mapper接口
  * 
- * @author ruoyi
+ * @author byte-love
  * @date 2025-08-26
  */
 @Mapper

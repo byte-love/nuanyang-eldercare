@@ -6,7 +6,7 @@ import com.zzyl.common.utils.DesensitizedUtil;
 /**
  * 脱敏类型
  *
- * @author ruoyi
+ * @author byte-love
  */
 public enum DesensitizedType
 {

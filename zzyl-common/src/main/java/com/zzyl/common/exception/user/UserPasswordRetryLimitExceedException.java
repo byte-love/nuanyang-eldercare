@@ -3,7 +3,7 @@ package com.zzyl.common.exception.user;
 /**
  * 用户错误最大次数异常类
  * 
- * @author ruoyi
+ * @author byte-love
  */
 public class UserPasswordRetryLimitExceedException extends UserException
 {

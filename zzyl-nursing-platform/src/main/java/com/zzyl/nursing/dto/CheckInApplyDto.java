@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * 申请入住请求模型
  *
- * @author itcast
+ * @author byte-love
  * @create 2023/12/18 17:10
  **/
 @Data

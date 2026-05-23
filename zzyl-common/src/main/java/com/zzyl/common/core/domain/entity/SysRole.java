@@ -13,7 +13,7 @@ import com.zzyl.common.core.domain.BaseEntity;
 /**
  * 角色表 sys_role
  * 
- * @author ruoyi
+ * @author byte-love
  */
 public class SysRole extends BaseEntity
 {

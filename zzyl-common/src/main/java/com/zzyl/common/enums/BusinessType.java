@@ -3,7 +3,7 @@ package com.zzyl.common.enums;
 /**
  * 业务操作类型
  * 
- * @author ruoyi
+ * @author byte-love
  */
 public enum BusinessType
 {

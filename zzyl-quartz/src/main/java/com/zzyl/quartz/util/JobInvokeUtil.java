@@ -11,7 +11,7 @@ import com.zzyl.quartz.domain.SysJob;
 /**
  * 任务执行工具
  *
- * @author ruoyi
+ * @author byte-love
  */
 public class JobInvokeUtil
 {

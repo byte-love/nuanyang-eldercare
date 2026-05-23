@@ -5,7 +5,7 @@ import com.zzyl.common.utils.Arith;
 /**
  * CPU相关信息
  * 
- * @author ruoyi
+ * @author byte-love
  */
 public class Cpu
 {

@@ -7,7 +7,7 @@ import lombok.Data;
 /**
  * 老人家属信息
  *
- * @author itcast
+ * @author byte-love
  * @create 2023/12/18 20:11
  **/
 @ApiModel(description = "老人家属信息")

@@ -7,7 +7,7 @@ import com.zzyl.generator.domain.GenTable;
 /**
  * 业务 服务层
  * 
- * @author ruoyi
+ * @author byte-love
  */
 public interface IGenTableService
 {

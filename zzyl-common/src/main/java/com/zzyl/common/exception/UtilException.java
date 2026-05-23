@@ -3,7 +3,7 @@ package com.zzyl.common.exception;
 /**
  * 工具类异常
  * 
- * @author ruoyi
+ * @author byte-love
  */
 public class UtilException extends RuntimeException
 {

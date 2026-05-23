@@ -5,7 +5,7 @@ import com.zzyl.common.utils.StringUtils;
 /**
  * 缓存信息
  * 
- * @author ruoyi
+ * @author byte-love
  */
 public class SysCache
 {

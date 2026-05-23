@@ -9,7 +9,7 @@ import com.zzyl.nursing.vo.LoginVo;
 /**
  * 老人家属Service接口
  * 
- * @author ruoyi
+ * @author byte-love
  * @date 2025-08-26
  */
 public interface IFamilyMemberService extends IService<FamilyMember>

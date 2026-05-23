@@ -10,7 +10,7 @@ import com.zzyl.common.core.domain.BaseEntity;
 /**
  * 入住配置对象 check_in_config
  * 
- * @author ruoyi
+ * @author byte-love
  * @date 2025-08-24
  */
 @Data

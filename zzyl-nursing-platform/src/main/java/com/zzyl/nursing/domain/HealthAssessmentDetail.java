@@ -9,7 +9,7 @@ import com.zzyl.common.core.domain.BaseEntity;
 /**
  * 健康评估详情对象 health_assessment_detail
  * 
- * @author ruoyi
+ * @author byte-love
  * @date 2025-08-22
  */
 @Data

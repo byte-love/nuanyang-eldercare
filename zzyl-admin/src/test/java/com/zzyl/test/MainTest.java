@@ -10,7 +10,7 @@ public class MainTest {
     public static void main(String[] args) {
         String url = "http://localhost/v1/conversations?user=1&limit=1";
         HttpResponse response = HttpUtil.createRequest(Method.GET, url)
-                .header(HttpHeaders.AUTHORIZATION, "Bearer app-CugsTPcFHPdVHsug2KmrErqe")
+                .header(HttpHeaders.AUTHORIZATION, System.getenv("DIFY_API_KEY"))
                 .execute();
         System.out.println(response.body());
     }

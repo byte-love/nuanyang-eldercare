@@ -8,7 +8,7 @@ import com.zzyl.system.domain.SysUserRole;
 /**
  * 角色业务层
  * 
- * @author ruoyi
+ * @author byte-love
  */
 public interface ISysRoleService
 {

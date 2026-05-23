@@ -9,7 +9,7 @@ import com.zzyl.nursing.vo.HealthAssessmentVo;
 /**
  * 健康评估Service接口
  * 
- * @author ruoyi
+ * @author byte-love
  * @date 2025-08-22
  */
 public interface IHealthAssessmentService extends IService<HealthAssessment>

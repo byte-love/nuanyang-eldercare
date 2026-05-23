@@ -20,7 +20,7 @@ import com.zzyl.system.service.ISysMenuService;
 /**
  * 登录验证
  * 
- * @author ruoyi
+ * @author byte-love
  */
 @RestController
 public class SysLoginController

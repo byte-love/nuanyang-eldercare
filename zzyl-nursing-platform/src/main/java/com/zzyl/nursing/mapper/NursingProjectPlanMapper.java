@@ -10,7 +10,7 @@ import org.apache.ibatis.annotations.Param;
 /**
  * 护理计划和项目关联Mapper接口
  * 
- * @author ruoyi
+ * @author byte-love
  * @date 2024-09-09
  */
 public interface NursingProjectPlanMapper 

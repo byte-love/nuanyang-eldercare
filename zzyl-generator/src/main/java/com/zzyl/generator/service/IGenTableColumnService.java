@@ -6,7 +6,7 @@ import com.zzyl.generator.domain.GenTableColumn;
 /**
  * 业务字段 服务层
  * 
- * @author ruoyi
+ * @author byte-love
  */
 public interface IGenTableColumnService
 {

@@ -13,7 +13,7 @@ import java.util.List;
 /**
  * 床位Service业务层处理
  * 
- * @author ruoyi
+ * @author byte-love
  * @date 2024-04-26
  */
 @Service

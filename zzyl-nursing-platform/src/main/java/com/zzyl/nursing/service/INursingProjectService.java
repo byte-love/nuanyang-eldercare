@@ -10,7 +10,7 @@ import com.zzyl.nursing.vo.NursingProjectVo;
 /**
  * 护理项目Service接口
  * 
- * @author ruoyi
+ * @author byte-love
  * @date 2024-09-12
  */
 public interface INursingProjectService extends IService<NursingProject>

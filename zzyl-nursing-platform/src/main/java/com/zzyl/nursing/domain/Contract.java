@@ -9,7 +9,7 @@ import com.zzyl.common.core.domain.BaseEntity;
 /**
  * 合同对象 contract
  * 
- * @author ruoyi
+ * @author byte-love
  * @date 2025-08-24
  */
 @Data

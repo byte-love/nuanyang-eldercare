@@ -12,6 +12,7 @@ import com.zzyl.common.utils.StringUtils;
 import com.zzyl.nursing.config.ApiConfig;
 import com.zzyl.nursing.config.ApiEndpoints;
 import com.zzyl.nursing.config.JsonFields;
+import com.zzyl.nursing.config.properties.DifyProperties;
 import com.zzyl.nursing.vo.MessageVO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpHeaders;
@@ -34,13 +35,15 @@ import java.util.Map;
 @RequestMapping("/ai")
 public class ChatController {
 
+    private final DifyProperties difyProperties;
     private final WebClient webClient;
     private final ObjectMapper objectMapper;
 
-    public ChatController(WebClient.Builder webClientBuilder, ObjectMapper objectMapper) {
+    public ChatController(WebClient.Builder webClientBuilder, ObjectMapper objectMapper, DifyProperties difyProperties) {
+        this.difyProperties = difyProperties;
         this.webClient = webClientBuilder
-                .baseUrl(ApiConfig.BASE_URL)
-                .defaultHeader(HttpHeaders.AUTHORIZATION, ApiConfig.BEARER_TOKEN)
+                .baseUrl(difyProperties.getBaseUrl())
+                .defaultHeader(HttpHeaders.AUTHORIZATION, difyProperties.getBearerToken())
                 .defaultHeader(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE)
                 .build();
         this.objectMapper = objectMapper;
@@ -60,7 +63,7 @@ public class ChatController {
             HttpResponse response = HttpUtil.createRequest(Method.DELETE,
                             buildFullUrl(ApiEndpoints.conversationDetail(chatId)))
                     .body(JSONUtil.toJsonStr(requestBody))
-                    .header(HttpHeaders.AUTHORIZATION, ApiConfig.BEARER_TOKEN)
+                    .header(HttpHeaders.AUTHORIZATION, difyProperties.getBearerToken())
                     .contentType(MediaType.APPLICATION_JSON_VALUE)
                     .execute();
 
@@ -90,7 +93,7 @@ public class ChatController {
                     SecurityUtils.getUserId().toString(), chatId));
 
             HttpResponse response = HttpUtil.createRequest(Method.GET, url)
-                    .header(HttpHeaders.AUTHORIZATION, ApiConfig.BEARER_TOKEN)
+                    .header(HttpHeaders.AUTHORIZATION, difyProperties.getBearerToken())
                     .contentType(MediaType.APPLICATION_JSON_VALUE)
                     .execute();
 
@@ -122,7 +125,7 @@ public class ChatController {
                     SecurityUtils.getUserId().toString()));
 
             HttpResponse response = HttpUtil.createRequest(Method.GET, url)
-                    .header(HttpHeaders.AUTHORIZATION, ApiConfig.BEARER_TOKEN)
+                    .header(HttpHeaders.AUTHORIZATION, difyProperties.getBearerToken())
                     .contentType(MediaType.APPLICATION_JSON_VALUE)
                     .execute();
 
@@ -264,6 +267,6 @@ public class ChatController {
      * 构建完整URL
      */
     private String buildFullUrl(String endpoint) {
-        return ApiConfig.BASE_URL + endpoint;
+        return difyProperties.getBaseUrl() + endpoint;
     }
 }

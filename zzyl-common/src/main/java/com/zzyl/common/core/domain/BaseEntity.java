@@ -16,7 +16,7 @@ import io.swagger.annotations.ApiModelProperty;
 /**
  * Entity基类
  * 
- * @author ruoyi
+ * @author byte-love
  */
 @ApiModel("基类")
 public class BaseEntity implements Serializable

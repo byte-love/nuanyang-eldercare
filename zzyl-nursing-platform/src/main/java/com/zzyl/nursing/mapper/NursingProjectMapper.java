@@ -10,7 +10,7 @@ import org.apache.ibatis.annotations.Select;
 /**
  * 护理项目Mapper接口
  * 
- * @author ruoyi
+ * @author byte-love
  * @date 2024-09-12
  */
 @Mapper

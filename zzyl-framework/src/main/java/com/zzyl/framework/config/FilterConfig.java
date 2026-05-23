@@ -15,7 +15,7 @@ import com.zzyl.common.utils.StringUtils;
 /**
  * Filter配置
  *
- * @author ruoyi
+ * @author byte-love
  */
 @Configuration
 public class FilterConfig

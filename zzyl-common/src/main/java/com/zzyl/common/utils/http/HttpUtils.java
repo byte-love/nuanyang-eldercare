@@ -25,7 +25,7 @@ import com.zzyl.common.utils.StringUtils;
 /**
  * 通用http发送方法
  * 
- * @author ruoyi
+ * @author byte-love
  */
 public class HttpUtils
 {

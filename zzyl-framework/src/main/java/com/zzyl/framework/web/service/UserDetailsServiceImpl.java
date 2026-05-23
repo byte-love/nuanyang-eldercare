@@ -18,7 +18,7 @@ import com.zzyl.system.service.ISysUserService;
 /**
  * 用户验证处理
  *
- * @author ruoyi
+ * @author byte-love
  */
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService

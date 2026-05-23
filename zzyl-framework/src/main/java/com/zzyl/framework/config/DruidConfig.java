@@ -27,7 +27,7 @@ import com.zzyl.framework.datasource.DynamicDataSource;
 /**
  * druid 配置多数据源
  * 
- * @author ruoyi
+ * @author byte-love
  */
 @Configuration
 public class DruidConfig

@@ -19,7 +19,7 @@ import com.zzyl.framework.web.service.TokenService;
 /**
  * token过滤器 验证token有效性
  * 
- * @author ruoyi
+ * @author byte-love
  */
 @Component
 public class JwtAuthenticationTokenFilter extends OncePerRequestFilter

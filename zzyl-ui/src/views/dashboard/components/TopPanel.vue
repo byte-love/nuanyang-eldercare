@@ -42,10 +42,10 @@
         <div class="roleCon">
           <div class="head"> 
             <div class="img">
-              <img :src="baseData.avatar ? baseData.avatar : avatar" />
+              <img :src="userAvatar" alt="avatar" />
             </div>
             <div class="rText">
-              <p>Hello！{{ baseData.nickName }}</p>
+              <p>Hello！{{ displayNickName }}</p>
               <p>今天也是元气满满的一天！</p>
             </div>
           </div>
@@ -98,6 +98,8 @@
 
 <script setup>
 import {computed, onMounted, ref} from 'vue'
+import useUserStore from '@/store/modules/user'
+import defAva from '@/assets/images/profile.jpg'
 
 import * as echarts from 'echarts/core'
 import {GridComponent, LegendComponent, TooltipComponent} from 'echarts/components'
@@ -130,9 +132,34 @@ import {
   getStaffPieChartDataSet
 } from '../index1'
 
-const avatar = ref(
-  'https://yjy-oss-videos.oss-accelerate.aliyuncs.com/grzxhz.jpg'
+const props = defineProps({
+  // 搜索对象
+  baseData: {
+    type: Object,
+    default: () => ({})
+  },
+  roleListData: {
+    type: String,
+    default: ''
+  }
+})
+
+const userStore = useUserStore()
+
+/** 与顶部导航栏一致：优先用户头像，否则默认图 */
+const userAvatar = computed(() => {
+  const user = props.baseData?.user
+  if (user?.avatar) {
+    const av = user.avatar
+    return av.startsWith('http') ? av : import.meta.env.VITE_APP_BASE_API + av
+  }
+  return userStore.avatar || defAva
+})
+
+const displayNickName = computed(
+  () => props.baseData?.user?.nickName || props.baseData?.user?.userName || ''
 )
+
 echarts.use([
   TooltipComponent,
   LegendComponent,
@@ -145,18 +172,6 @@ echarts.use([
 const store = useSettingStore()
 const newDate = getDateInfo(new Date())
 const chartColors = computed(() => store.chartColors)
-// 获取父组件值、方法
-defineProps({
-  // 搜索对象
-  baseData: {
-    type: Object,
-    default: () => ({})
-  },
-  roleListData: {
-    type: String,
-    default: ''
-  }
-})
 // monitorChart
 let oldContainer= null // 老人
 let bedContainer= null // 床位

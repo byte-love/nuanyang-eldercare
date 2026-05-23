@@ -12,7 +12,7 @@ import com.zzyl.common.core.domain.BaseEntity;
 /**
  * 岗位表 sys_post
  * 
- * @author ruoyi
+ * @author byte-love
  */
 public class SysPost extends BaseEntity
 {

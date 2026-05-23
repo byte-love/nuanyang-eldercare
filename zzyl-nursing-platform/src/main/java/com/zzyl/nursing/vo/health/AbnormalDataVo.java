@@ -4,7 +4,7 @@ import lombok.Data;
 
 /**
  * 异常数据类
- * @author itheima
+ * @author byte-love
  */
 @Data
 public class AbnormalDataVo {

@@ -9,7 +9,7 @@ import com.zzyl.common.core.domain.BaseEntity;
 /**
  * 护理等级对象 nursing_level
  * 
- * @author ruoyi
+ * @author byte-love
  * @date 2024-09-07
  */
 public class NursingLevel extends BaseEntity

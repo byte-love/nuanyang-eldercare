@@ -7,7 +7,7 @@ import com.zzyl.common.core.text.Convert;
 /**
  * 权限信息
  * 
- * @author ruoyi
+ * @author byte-love
  */
 public class PermissionContextHolder
 {

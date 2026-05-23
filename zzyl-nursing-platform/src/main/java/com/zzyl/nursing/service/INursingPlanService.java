@@ -8,7 +8,7 @@ import com.zzyl.nursing.vo.NursingPlanVo;
 /**
  * 护理计划Service接口
  * 
- * @author ruoyi
+ * @author byte-love
  * @date 2024-09-07
  */
 public interface INursingPlanService 

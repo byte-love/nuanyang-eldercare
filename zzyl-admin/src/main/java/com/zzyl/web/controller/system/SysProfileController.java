@@ -26,7 +26,7 @@ import com.zzyl.system.service.ISysUserService;
 /**
  * 个人信息 业务处理
  * 
- * @author ruoyi
+ * @author byte-love
  */
 @RestController
 @RequestMapping("/system/user/profile")

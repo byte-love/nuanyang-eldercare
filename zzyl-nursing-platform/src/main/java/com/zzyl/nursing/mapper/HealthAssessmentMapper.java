@@ -8,7 +8,7 @@ import org.apache.ibatis.annotations.Mapper;
 /**
  * 健康评估Mapper接口
  * 
- * @author ruoyi
+ * @author byte-love
  * @date 2025-08-22
  */
 @Mapper

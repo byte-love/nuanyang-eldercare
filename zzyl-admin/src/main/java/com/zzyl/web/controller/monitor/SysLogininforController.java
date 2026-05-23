@@ -23,7 +23,7 @@ import com.zzyl.system.service.ISysLogininforService;
 /**
  * 系统访问记录
  * 
- * @author ruoyi
+ * @author byte-love
  */
 @RestController
 @RequestMapping("/monitor/logininfor")

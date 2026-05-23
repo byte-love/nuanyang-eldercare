@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * 护理员老人关联Service接口
  * 
- * @author ruoyi
+ * @author byte-love
  * @date 2024-05-28
  */
 public interface INursingElderService extends IService<NursingElder>

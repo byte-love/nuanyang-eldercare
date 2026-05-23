@@ -3,7 +3,7 @@ package com.zzyl.common.exception.job;
 /**
  * 计划策略异常
  * 
- * @author ruoyi
+ * @author byte-love
  */
 public class TaskException extends Exception
 {

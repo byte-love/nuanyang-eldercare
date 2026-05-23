@@ -4,7 +4,7 @@ import lombok.Data;
 
 /**
  * LoginVO
- * @author itheima
+ * @author byte-love
  */
 @Data
 public class LoginVo {

@@ -7,7 +7,7 @@ import com.zzyl.common.utils.ServletUtils;
 /**
  * 服务相关配置
  * 
- * @author ruoyi
+ * @author byte-love
  */
 @Component
 public class ServerConfig

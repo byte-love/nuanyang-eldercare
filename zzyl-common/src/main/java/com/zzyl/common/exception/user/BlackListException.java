@@ -3,7 +3,7 @@ package com.zzyl.common.exception.user;
 /**
  * 黑名单IP异常类
  * 
- * @author ruoyi
+ * @author byte-love
  */
 public class BlackListException extends UserException
 {

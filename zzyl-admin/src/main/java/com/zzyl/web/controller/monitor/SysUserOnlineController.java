@@ -26,7 +26,7 @@ import com.zzyl.system.service.ISysUserOnlineService;
 /**
  * 在线用户监控
  * 
- * @author ruoyi
+ * @author byte-love
  */
 @RestController
 @RequestMapping("/monitor/online")

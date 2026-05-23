@@ -23,7 +23,7 @@ import com.zzyl.system.service.ISysConfigService;
 /**
  * 验证码操作处理
  * 
- * @author ruoyi
+ * @author byte-love
  */
 @RestController
 public class CaptchaController

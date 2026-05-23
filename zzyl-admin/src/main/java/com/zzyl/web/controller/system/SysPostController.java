@@ -25,7 +25,7 @@ import com.zzyl.system.service.ISysPostService;
 /**
  * 岗位信息操作处理
  * 
- * @author ruoyi
+ * @author byte-love
  */
 @RestController
 @RequestMapping("/system/post")

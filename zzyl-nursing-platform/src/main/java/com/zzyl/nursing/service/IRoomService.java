@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * 房间Service接口
  * 
- * @author ruoyi
+ * @author byte-love
  * @date 2024-04-26
  */
 public interface IRoomService extends IService<Room>

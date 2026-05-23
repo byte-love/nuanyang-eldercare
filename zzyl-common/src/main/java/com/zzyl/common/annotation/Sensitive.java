@@ -12,7 +12,7 @@ import com.zzyl.common.enums.DesensitizedType;
 /**
  * 数据脱敏注解
  *
- * @author ruoyi
+ * @author byte-love
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.FIELD)

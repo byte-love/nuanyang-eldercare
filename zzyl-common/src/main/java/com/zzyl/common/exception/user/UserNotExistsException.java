@@ -3,7 +3,7 @@ package com.zzyl.common.exception.user;
 /**
  * 用户不存在异常类
  * 
- * @author ruoyi
+ * @author byte-love
  */
 public class UserNotExistsException extends UserException
 {

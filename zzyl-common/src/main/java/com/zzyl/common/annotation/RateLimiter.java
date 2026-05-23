@@ -11,7 +11,7 @@ import com.zzyl.common.enums.LimitType;
 /**
  * 限流注解
  * 
- * @author ruoyi
+ * @author byte-love
  */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)

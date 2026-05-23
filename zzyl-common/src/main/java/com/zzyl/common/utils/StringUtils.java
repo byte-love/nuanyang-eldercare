@@ -13,7 +13,7 @@ import com.zzyl.common.core.text.StrFormatter;
 /**
  * 字符串工具类
  * 
- * @author ruoyi
+ * @author byte-love
  */
 public class StringUtils extends org.apache.commons.lang3.StringUtils
 {

@@ -6,7 +6,7 @@ import com.zzyl.common.utils.StringUtils;
 /**
  * 基础异常
  * 
- * @author ruoyi
+ * @author byte-love
  */
 public class BaseException extends RuntimeException
 {

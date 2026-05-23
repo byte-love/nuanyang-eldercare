@@ -3,7 +3,7 @@ package com.zzyl.system.domain;
 /**
  * 当前在线会话
  * 
- * @author ruoyi
+ * @author byte-love
  */
 public class SysUserOnline
 {

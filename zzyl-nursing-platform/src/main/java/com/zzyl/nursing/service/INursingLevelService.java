@@ -7,7 +7,7 @@ import com.zzyl.nursing.vo.NursingLevelVo;
 /**
  * 护理等级Service接口
  * 
- * @author ruoyi
+ * @author byte-love
  * @date 2024-09-07
  */
 public interface INursingLevelService 

@@ -7,7 +7,7 @@ import lombok.Data;
 /**
  * 床位对象 bed
  * 
- * @author ruoyi
+ * @author byte-love
  * @date 2024-04-26
  */
 @Data

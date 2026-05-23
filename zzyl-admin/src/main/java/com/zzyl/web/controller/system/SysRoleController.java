@@ -34,7 +34,7 @@ import com.zzyl.system.service.ISysUserService;
 /**
  * 角色信息
  * 
- * @author ruoyi
+ * @author byte-love
  */
 @RestController
 @RequestMapping("/system/role")
