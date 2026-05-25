@@ -152,7 +152,7 @@ flowchart LR
   Admin --> System
   Nursing --> MySQL
   Nursing --> Dify
-  Nursing --> DS
+  Nursing --> Ali
   Admin --> Redis
   Admin --> OSS
 ```
