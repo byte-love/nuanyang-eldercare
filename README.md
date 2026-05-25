@@ -145,7 +145,7 @@ flowchart LR
     Redis[(Redis)]
     OSS[阿里云 OSS]
     Dify[Dify API]
-    DS[DeepSeek API]
+    Ali[阿里百炼 API]
   end
   UI --> Admin
   Admin --> Nursing
