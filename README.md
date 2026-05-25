@@ -164,13 +164,13 @@ flowchart LR
   Admin --> OSS
 ```
 
-| 层次 | 技术                                                                          |
-|------|-----------------------------------------------------------------------------|
+| 层次 | 技术                                                       |
+|------|----------------------------------------------------------|
 | 后端 | Java 17、Spring Boot 2.5、Spring Security、JWT、MyBatis-Plus |
-| 前端 | Vue 3、Pinia、Element Plus、ECharts                                            |
-| 中间件 | MySQL 8、Redis、Elasticsearch                                        |
-| AI | Dify（对话）、RAGFlow、百度千帆大模型（健康评估）、阿里百炼（Agent）                                  |
-| 其他 | 阿里云 OSS 文件存储、微信小程序（家属端接口预留）、Docker&Compose、Nginx                            |
+| 前端 | Vue 3、Pinia、Element Plus、ECharts                         |
+| 中间件 | MySQL 8、Redis、Elasticsearch、华为云IOT                       |
+| AI | Dify（对话）、RAGFlow、百度千帆大模型（健康评估）、阿里百炼（Agent）               |
+| 其他 | 阿里云 OSS 文件存储、微信小程序（家属端接口预留）、Docker&Compose、Nginx         |
 
 ---
 
