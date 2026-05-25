@@ -204,5 +204,5 @@ nursingId: 201
 
 # Dify 智能咨询（请填写自己的地址与 API Key，勿提交到公开仓库）
 dify:
-  baseUrl: ${DIFY_BASE_URL}
+  baseUrl: ${DIFY_BASE_URL:1111}
   apiKey: ${DIFY_API_KEY}
