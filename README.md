@@ -50,7 +50,7 @@
 - 折线图 / 饼图展示收益与老人结构分布
 - 右侧展示当前登录用户与快捷入口
 
-> 演示账号（导入 `sql/zzyl.sql` 后）：`admin` / `admin123`
+> 演示账号（导入 `sql/nuanyang.sql` 后）：`admin` / `admin123`
 
 ---
 
@@ -93,10 +93,10 @@ flowchart LR
     UI[Vue3 + Element Plus + Vite]
   end
   subgraph 后端
-    Admin[zzyl-admin]
-    Nursing[zzyl-nursing-platform]
-    System[zzyl-system]
-    FW[zzyl-framework]
+    Admin[nuanyang-admin]
+    Nursing[nuanyang-nursing-platform]
+    System[nuanyang-system]
+    FW[nuanyang-framework]
   end
   subgraph 基础设施
     MySQL[(MySQL)]
@@ -128,15 +128,15 @@ flowchart LR
 ## 项目结构
 
 ```
-zzyl-dify/
-├── zzyl-admin/              # 启动模块
-├── zzyl-nursing-platform/   # 养老业务（入住、护理、评估、Dify）
-├── zzyl-system/             # 系统管理
-├── zzyl-framework/          # 安全、配置
-├── zzyl-common/             # 工具与通用类
-├── zzyl-quartz/             # 定时任务
-├── zzyl-ui/                 # 前端工程
-├── sql/zzyl.sql             # 数据库脚本
+nuanyang-dify/
+├── nuanyang-admin/              # 启动模块
+├── nuanyang-nursing-platform/   # 养老业务（入住、护理、评估、Dify）
+├── nuanyang-system/             # 系统管理
+├── nuanyang-framework/          # 安全、配置
+├── nuanyang-common/             # 工具与通用类
+├── nuanyang-quartz/             # 定时任务
+├── nuanyang-ui/                 # 前端工程
+├── sql/nuanyang.sql             # 数据库脚本
 └── docs/images/             # README 演示截图
 ```
 
@@ -153,7 +153,7 @@ zzyl-dify/
 ### 1. 数据库
 
 ```bash
-mysql -u root -p < sql/zzyl.sql
+mysql -u root -p < sql/nuanyang.sql
 ```
 
 ### 2. 后端配置
@@ -162,7 +162,7 @@ mysql -u root -p < sql/zzyl.sql
 
 ```bash
 # 主要编辑数据库、Redis、Dify、OSS 等
-zzyl-admin/src/main/resources/application-dev.yml
+nuanyang-admin/src/main/resources/application-dev.yml
 ```
 
 关键配置示例：
@@ -172,7 +172,7 @@ spring:
   datasource:
     druid:
       master:
-        url: jdbc:mysql://localhost:3306/zzyl?...
+        url: jdbc:mysql://localhost:3306/nuanyang?...
         username: root
         password: 你的密码
   redis:
@@ -190,7 +190,7 @@ dify:
 
 ```bash
 mvn clean install -DskipTests
-# 运行 zzyl-admin 模块主类 RuoYiApplication
+# 运行 nuanyang-admin 模块主类 RuoYiApplication
 ```
 
 默认端口：`9901`
@@ -198,7 +198,7 @@ mvn clean install -DskipTests
 ### 4. 启动前端
 
 ```bash
-cd zzyl-ui
+cd nuanyang-ui
 npm install
 npm run dev
 ```

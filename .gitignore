@@ -36,8 +36,8 @@ dist/
 nbdist/
 .nb-gradle/
 node_modules/
-zzyl-ui/node_modules/
-zzyl-ui/dist/
+nuanyang-ui/node_modules/
+nuanyang-ui/dist/
 .DS_Store
 Thumbs.db
 *.local
